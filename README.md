@@ -1,11 +1,20 @@
 # FONTE DE TENSÃO AJUSTÁVEL
-### Um projeto desenvolvido para a disciplina de Eletrônica para a Computação da USP
+### Um projeto desenvolvido para a disciplina de Eletrônica para a Computação da USP 
 > Neste projeto, busca-se projetar uma fonte de tensão ajustável entre 3v e 12v, com uma corrente de 100mA. Ela deve ser capaz de receber uma corrente alternada de tensão eficaz de 127v e fornecer uma corrente contínua. 
 
+<br><br>
 
 ## Circuito no Falstad
-![](image/imagens-do-circuito/circuit-20210802-0325.png)
+#### Circuito Estático
+![](imagens-do-circuito/circuit-20210802-0325.png)
+<br>
+#### Simulação
+![](imagens-do-circuito/simulacao-falstad.gif)
 
+<br><br><br>
+
+## Circuito no Eagle
+![](imagens-do-circuito/Eagle.PNG)
 
 <br><br>
 
@@ -108,4 +117,67 @@
 > * É a resposta para: como é possível ter um resistor grande o suficiente para evitar que o zener queime e pequeno o bastante para alimentar o dispositivo com a corrente necessária? Simples, com um transistor NPN.
 > * Um 'defeito' natural desse tipo de transistor é que ele não pode passar mais tensão do que a tensão da base - 0.7. Porém, nesse caso, isso é uma vantagem, pois mesmo com uma corrente muito pequena, a base do transistor será capaz de estabelecer uma tensão máxima. 
 
+<br><br>
 
+## Cálculos
+#### Imagem de Referência
+> Note que o resistor R5 não faz parte do circuito, pois ele apenas representa a resistência do dispositivo que será conectado à fonte.
+
+![](calculos/Label.jpg)
+
+
+#### Calculando a razão do transformador
+![](calculos/Transformador.jpg)
+
+#### Calculando a tensão equivalente do dispositivo
+![](calculos/Resistência%205.jpg)
+
+#### Calculando as tensões
+![](calculos/Tensão.jpg)
+
+#### Calculando as correntes e potências
+> É importante escolher componentes que suportem as potências máximas previstas (e um pouco mais, por segurança).
+
+![](calculos/Tensão.jpg)
+
+
+#### Calculando a Capacitância do Capacitor
+![](calculos/Capacitor.jpg)
+
+<br><br>
+
+## Circuito alternativo
+> * Como algumas das peças escolhidas são mais difícies de se encontrar, o seguinte circuito no Falstad serve como uma alternativa ao primeiro com valores mais aproximados. Vale destacar que é bem melhor usar o valor 1.5kΩ ao invés de 2kΩ para o resistor do zenner (embora isso signifique ter que comprar um valor diferente dos demais resistores). Note que a resistência 1.500 pode ser alcançada aproximadamente com dois resistores em serie, um de 1kΩ e outro de 470Ω (valores comerciais e comuns). 
+> * Os capacitores em serie tem sua capacitância somada na capacitância equivalente.
+
+![](imagens-do-circuito/Circuito%20Alternativo.png)
+
+
+<br><br>
+
+## Circuito Roteado Para Impressão no Eagle
+#### Com a silhueta dos componentes
+> Imagem não invertida.
+![](imagens-do-circuito/EagleRouter1.PNG)
+
+#### Apenas Buracos e COnexões
+> Obs: Note que, nesta versão, o circuito está invertida, pois essa versão, após ser imprimida, objetiva ser referência ao se fazer a parte de baixo do circuito.
+
+![](imagens-do-circuito/RouterEagleMirror.PNG)
+
+<br><br><br>
+
+## Links
+1) <h4><a href="https://tinyurl.com/yglzjbnm">Circuito no Falstad</a></h4>
+
+<br>
+
+## Autor do Prjeto
+Bernardo Maia Coelho, aluno do curso de Bacharelado de Ciências de Computação do Instituto De Ciências Matemáticas e de Computação (ICMC - USP).
+
+<br>
+
+## Prosfessor Orientador
+Eduardo do Valle Simoes
+
+<br>
