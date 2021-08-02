@@ -4,7 +4,7 @@
 
 
 ## Circuito no Falstad
-
+![](image/imagens-do-circuito/circuit-20210802-0325.png)
 
 
 <br><br>
