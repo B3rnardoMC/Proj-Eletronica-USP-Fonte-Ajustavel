@@ -170,6 +170,7 @@
 ## Links
 1) <h4><a href="https://tinyurl.com/yglzjbnm">Circuito no Falstad</a></h4>
 2) <h4><a href="https://youtu.be/UzgwbXbtjCQ">Vídeo explicando o circúito resumidamente</a></h4>
+3) <h4><a href="https://youtu.be/bB7XH8SxTIc">Link 2 para o vídeo</a></h4>
 
 
 <br>
